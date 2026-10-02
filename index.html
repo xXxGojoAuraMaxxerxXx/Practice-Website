@@ -7,18 +7,20 @@
     <script src="index.js" defer></script>
 </head>
 <body onload="loading();">
-    <h1 class="title" id="titleHeader">Karl's Aspirations In Life</h1>
+    <h1 class="title" id="titleHeader">Welcome to <abbr title="Honors Computer Science Senior Capstone: Web, Data, and AI">HCSSCWDAI</abbr>!</h1>
 
     <hr>
 
     <div>
+        <h3 class="carson">3 of my hobbies...</h3>
     <ol class="lists">
         <li>Vibe-code cyberacad.org</li>
         <li>Playing the guitar</li>
         <li>Doomscroll on TikTok</li>
     </ol>
 
-    <h3 class="carson">Three Fun Facts</h3>
+    <hr>
+    <h3 class="carson">3 fun facts about me...</h3>
 
     <ul class="lists">
         <li>I survived DSA</li>
@@ -26,29 +28,72 @@
         <li>I pay $8 for Claude Pro</li>
     </ul>
     </div>
+    <hr>
+    <h3 class="carson">Some Cool Links!</h3>
+    <div id="linkDiv">
+        <h3><a href="https://github.com/xXxGojoAuraMaxxerxXx">My GitHub</a></h3>
+        <h3><a href="https://frhsd.com">FRHSD</a></h3>
+    </div>
 
-    <br>
-    <a href="https://github.com/xXxGojoAuraMaxxerxXx">My GitHub</a>
-    <a href="https://frhsd.com">FRHSD</a>
+    <hr>
 
     <div id="coolDiv">
         <img src="https://cyberacad.org/amer-profile.jpg" alt="amer ai generated photo" id="amer">
-        <p>"Nah, I'd win." - Amer Gomma, probably.</p>
+        <p class="carson">"Nah, I'd win." - Amer Gomma, probably.</p>
 
-        <a href="#titleHeader">Internal Link</a>
-        <a href="https://claude.ai">External Link</a>
+        <br>
+
+        <h3><a href="#titleHeader">Click me to go back up!</a></h3>
+        <h3><a href="https://claude.ai">"How to make a better website!" by Amer Gomma</a></h3>
+    </div>
+    <hr>
+    <h4 id="claudeOutput" class="carson">Advanced Button Clicker</h4>
+
+    <div id="buttonCounterDiv">
+        <button id="button1" onclick="button1();">0</button>
+        <button id="button2" onclick="button2();">0</button>
     </div>
 
-    <h4 id="claudeOutput" class="carson">Welcome to Claude!</h4>
-    <label>
-        <input id="claudeInput">
-    </label>
-    <button id="claudeSubmit" onclick="clicked();">Submit Chat</button>
-    <button id="button1" onclick="button1();">0</button>
-    <button id="button2" onclick="button2();">0</button>
-    <br><br>
+    <br>
+    <br>
+    <hr>
 
+    <h3 class="carson">Change the title of the website!</h3>
+
+    <div id="inputDiv">
+        <label>
+            <input id="claudeInput">
+        </label>
+
+        <button id="claudeSubmit" onclick="clicked();">Change Title</button>
+    </div>
     <br>
     <br>
+    <hr>
+    <br>
+    <br>
+    <h3 class="carson">Courses on CyberAcad</h3>
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Description</th>
+            <th>Users</th>
+        </tr>
+        <tr>
+            <td>Introduction to Linux</td>
+            <td>Learn how to hack!</td>
+            <td>392</td>
+        </tr>
+        <tr>
+            <td>Introduction to Cybersecurity</td>
+            <td>Learn how to get into the mainframe!</td>
+            <td>412</td>
+        </tr>
+        <tr>
+            <td>Mr. Goldstein's Honors CS Capstone</td>
+            <td>actual coding ewwwww</td>
+            <td>n/a</td>
+        </tr>
+    </table>
 </body>
 </html>

@@ -44,21 +44,27 @@ hr {
 
 .carson {
     font: bold 25px Roboto;
-    border-bottom: 2px solid;
     padding: 10px;
     text-align: center;
 }
 
 body .lists {
     display: flex;
-    font: bold 25px Segoe UI;
+    font: 20px Segoe UI;
     justify-content: space-evenly;
 }
 
-#amer {
-    width: 40vh;
-    height: 40vh;
+button {
+    background-color: hotpink;
+    font: 25px Roboto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 
 .body {
     font: bold 15px "Segoe UI";
@@ -68,27 +74,70 @@ a:visited {
     color: beige;
 }
 
-a[href*="frhsd.com"] {
-    color: lime;
+#buttonCounterDiv {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+
+    button {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
-li:first-child {
-    color: fuchsia;
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+    tr th {
+        text-align: left;
+    }
+    tr td {
+        text-align: left;
+        padding-right: 20px;
+    }
+}
+
+label {
+    color: hotpink;
+
+}
+
+#inputDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+a[href*="frhsd.com"] {
+    font: italic 20px "Segoe UI";
 }
 
 #amerBio {
-    font: italic 15px Segoe UI;
+    font: italic 15px "Segoe UI";
 }
 
 li:hover {
-    background-color: navy;
+    background-color: lightpink;
+}
+
+#linkDiv {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+}
+
+h3 {
+    text-align: center;
 }
 
 div {
-    li {
-        padding: 5px;
-    }
+    border: 5px;
     li + li {
         margin-left: 15px;
     }
+}
+
+div > li {
+    padding: 5px;
 }
