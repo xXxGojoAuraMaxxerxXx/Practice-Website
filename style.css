@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: hotpink;
+    font-family: Segoe UI, serif;
+}
+
+hr {
+    background-color: hotpink;
+    height: 1px;
+    border: none;
+}
+
+#coolDiv {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+
+    img {
+        grid-column: span 3;
+        grid-row: span 3;
+        height: 40vh;
+        width: 40vh;
+        padding-left: 100px;
+    }
+
+    p {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    a{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+.title {
+    color: hotpink;
+    font: bold 40px "Segoe UI";
+    padding-top: 15px;
+    text-align: center;
+}
+
+.carson {
+    font: bold 25px Roboto;
+    border-bottom: 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+body .lists {
+    display: flex;
+    font: bold 25px Segoe UI;
+    justify-content: space-evenly;
+}
+
+#amer {
+    width: 40vh;
+    height: 40vh;
+}
+
+.body {
+    font: bold 15px "Segoe UI";
+}
+
+a:visited {
+    color: beige;
+}
+
+a[href*="frhsd.com"] {
+    color: lime;
+}
+
+li:first-child {
+    color: fuchsia;
+}
+
+#amerBio {
+    font: italic 15px Segoe UI;
+}
+
+li:hover {
+    background-color: navy;
+}
+
+div {
+    li {
+        padding: 5px;
+    }
+    li + li {
+        margin-left: 15px;
+    }
+}

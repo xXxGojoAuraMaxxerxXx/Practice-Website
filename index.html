@@ -3,22 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
-<body>
-    <p>Hello, World!</p>
+<body onload="loading();">
+    <h1 class="title" id="titleHeader">Karl's Aspirations In Life</h1>
 
-    <ol>
+    <hr>
+
+    <div>
+    <ol class="lists">
         <li>Vibe-code cyberacad.org</li>
         <li>Playing the guitar</li>
         <li>Doomscroll on TikTok</li>
     </ol>
 
-    <h3>Three Fun Facts</h3>
+    <h3 class="carson">Three Fun Facts</h3>
 
-    <ul>
+    <ul class="lists">
         <li>I survived DSA</li>
         <li>I play 5 instruments</li>
         <li>I pay $8 for Claude Pro</li>
     </ul>
+    </div>
+
+    <br>
+    <a href="https://github.com/xXxGojoAuraMaxxerxXx">My GitHub</a>
+    <a href="https://frhsd.com">FRHSD</a>
+
+    <div id="coolDiv">
+        <img src="https://cyberacad.org/amer-profile.jpg" alt="amer ai generated photo" id="amer">
+        <p>"Nah, I'd win." - Amer Gomma, probably.</p>
+
+        <a href="#titleHeader">Internal Link</a>
+        <a href="https://claude.ai">External Link</a>
+    </div>
+
+    <h4 id="claudeOutput" class="carson">Welcome to Claude!</h4>
+    <label>
+        <input id="claudeInput">
+    </label>
+    <button id="claudeSubmit" onclick="clicked();">Submit Chat</button>
+    <button id="button1" onclick="button1();">0</button>
+    <button id="button2" onclick="button2();">0</button>
+    <br><br>
+
+    <br>
+    <br>
 </body>
 </html>
