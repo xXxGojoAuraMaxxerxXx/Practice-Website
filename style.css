@@ -131,6 +131,25 @@ h3 {
     text-align: center;
 }
 
+a {
+    color: deeppink;
+}
+
+a:hover {
+    color: white; !important
+}
+
+h3 > a:hover{
+    color: white; !important
+}
+a:visited {
+    color: hotpink;
+}
+
+tr td a {
+    color: white; !important
+}
+
 div {
     border: 5px;
     li + li {
